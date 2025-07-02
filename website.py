@@ -10,7 +10,7 @@ page = st.sidebar.radio("Go to", ["About", "Academics", "Publications", "Project
 # --- About Page ---
 if page == "About":
     st.title("About Me")
-    st.image("FullSizeRender.HEIC", width=200)
+    st.image("FullSizeRender.jpeg", width=200)
     st.markdown("""
     👋 Hi! I'm **Nishant Kumar**, a PhD student in Civil Engineering at the University of Nebraska-Lincoln.  
     I work on **Rain-on-Snow**, **Non-Stationarity**, **Machine Learning in Hydrology**, **Droughts**, and **Land Surface Modeling** using **NASA-LIS** and **LIS/WRF-Hydro**.
